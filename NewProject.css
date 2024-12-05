@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Danfo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .container-content {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .heading {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  p {
+    display: inline-block;
+  }
+
+  .Schedule {
+    margin-top: 30px;
+    margin-right: 70px;
+    position: absolute;
+  }
+
+  .radio-form {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+  }
+
+  .date {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    display: block;
+    text-align: left;
+  }
+
+  .week {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    display: block;
+    text-align: left;
+  }
+
+  .time {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    display: block;
+    text-align: left;
+    appearance: none;
+  }
+  
+  .main {
+    width: 180px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #dadada;
+    border: 2px solid #8b8b8b;
+    text-align: left;
+    margin-bottom: 40px;
+    display: block;
+    font-family: "Inter", sans-serif;
+    
+  }
+
+  #weekday {
+    width: 180px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    background-color: #dadada;
+    border: 2px solid #8b8b8b;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+  }
+
+  #bullet-style {
+    width: 40px;
+    margin-left: 40px;
+  }
+
+  button {
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 365px;
+    margin-left: 30px;
+  }
+  
+  .cancel-button {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    position: absolute;
+    margin-left: 120px;
+  }
+  
+  .cancel-button:hover {
+    background: rgba(255, 0, 0, 0.1);
+  }
+  
+  .save-button {
+    background: blue;
+    color: white;
+    position: absolute;
+    margin-left: 280px;
+    border: 1px solid blue;
+  }
+  
+  .save-button:hover {
+    background: darkblue;
+  }
+
+  .Asterix {
+    color: red;
+  }
